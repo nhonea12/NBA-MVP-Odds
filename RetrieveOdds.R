@@ -4,9 +4,6 @@ library(jsonlite) # for getting data
 # get today's date
 today <- Sys.Date() 
 
-
-
-
 # ensure data output folder exists
 if (!dir.exists("data")) dir.create("data")
 
